@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+/* CSS for navigation menu */
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 15px 30px;
+    margin:0px 5px;
+}
+
+/* CSS for last element of menu */
+.menu a:last-child{
+    background-color: #f76150;
+    border-radius: 8px;
+}
+
+/* CSS for hover effect on menus */
+.menu a:hover{
+    background-color: #f76150;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* CSS for creating line after navbar */
+.line{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.l1{
+    width: 35px;
+    height: 5px;
+    background: white;
+}
+.l2{
+    width: 50px;
+    height: 5px;
+    background: white;
+}
+.l3{
+    width: 80px;
+    height: 5px;
+    background: white;
+}
+
+/* CSS for content and image */
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+.left{
+    flex-basis: 40%;
+}
+.left h2{
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+}
+.left button{
+    background: #f76150;
+    color: white;
+    padding: 10px;
+    margin-top: 35px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(to bottom, rgba(206, 188, 188, 0), rgba(212, 192, 192, 0.4));
+}
+
+/* CSS for image */
+.icon{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;  
+    padding: 10px;  
+    justify-content: space-between;
+    align-items: center;
+}
+.icon img{
+    width: 100px;
+}
